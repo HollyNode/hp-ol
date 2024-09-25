@@ -1,4 +1,4 @@
-import React from "react";
+{/*import React from "react";
 //import { FloatingDock } from "./ui/floating-dock";
 import {
   IconBrandGithub,
@@ -61,6 +61,6 @@ export function FloatingDockDemo() {
         mobileClassName="translate-y-20" // For mobile, adjust/remove this for production
         items={links}
       />
-    </div>*/}
+    </div>
   );
-}
+}*/}
