@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000129;
     --foreground: #ededed;
   }
 }
@@ -25,3 +25,48 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Duvall';
+  src: url('/fonts/Duvall.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-duvall {
+  font-family: 'Duvall', serif;
+}
+
+
+.fade-in {
+  opacity: 1 !important;
+  transition: opacity 1s ease-in-out;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.learn-header {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
