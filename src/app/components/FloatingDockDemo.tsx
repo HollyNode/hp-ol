@@ -1,5 +1,5 @@
 import React from "react";
-import { FloatingDock } from "./ui/floating-dock";
+//import { FloatingDock } from "./ui/floating-dock";
 import {
   IconBrandGithub,
   IconBrandX,
@@ -56,11 +56,11 @@ export function FloatingDockDemo() {
   ];
 
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    {/*<div className="flex items-center justify-center h-[35rem] w-full">
       <FloatingDock
         mobileClassName="translate-y-20" // For mobile, adjust/remove this for production
         items={links}
       />
-    </div>
+    </div>*/}
   );
 }
