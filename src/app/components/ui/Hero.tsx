@@ -1,14 +1,14 @@
 "use client";
 
-import { useState, useEffect } from "react";
+//import { useState, useEffect } from "react";
 import Image from "next/image";
-import localFont from 'next/font/local';
+//import localFont from 'next/font/local';
 
 // Correct path to Duvall.ttf font
-const duvall = localFont({
+{/*const duvall = localFont({
   src: '../../fonts/Duvall.ttf',
   variable: '--font-duvall',
-});
+});*/}
 
 const Hero = () => {
   return (
